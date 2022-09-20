@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 130%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    border-radius: 3px;
+}
+form:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+label{
+    margin-bottom: 3px;
+}
+
+input{
+    margin-bottom: 30px;
+}
+
+button{
+    width: 77%;
+    background-color: rgb(0, 153, 247);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: rgb(1, 133, 214);
+}
